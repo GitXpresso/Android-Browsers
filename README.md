@@ -22,7 +22,7 @@ _'~' next to to-do contents = unfinished_
 ## Chromium-based browsers:
 **NOTE:** Not all extensions will behave or work as expected from any chromium android forks with extension support.
 ### Cromite (maintained fork of bromite):
-#### Active Updates: ✅
+#### Active Updates: ❓
 #### Latest release date: 2026-03-02
 #### Link: https://github.com/uazo/cromite
 #### Description: Take back your browser!
@@ -36,7 +36,7 @@ _'~' next to to-do contents = unfinished_
 
 **fun fact:** Uazo worked on bromite, before bromite was archived.
 ### Helium: 
-#### Active Updates: ✅
+#### Active Updates: ❓
 #### Link: https://github.com/jqssun/android-helium-browser
 #### Description: Private, Secure, with webextensions support
 #### Information:
@@ -45,7 +45,7 @@ _'~' next to to-do contents = unfinished_
 * based on Vanadium + Helium browser (PC)
 * WebRTC IP Policy
 ### Ultimatum
-#### Active Updates: ✅
+#### Active Updates: ❓
 #### Link: https://github.com/gonzazoid/Ultimatum
 #### Description: Chromium fork with webextensions support, ani-detect browser features + more
 #### Information:
@@ -60,7 +60,7 @@ _'~' next to to-do contents = unfinished_
     - plus other things that come with chromium (android desktop)
 ## Firefox-based browsers:
 ### SmartCookieWeb-Preview:
-#### Active Updates: ❌ 
+#### Active Updates: ❓
 #### Fork: [Nira browser (alpha)](#Nira-browser-(alpha:))
 #### Link: https://github.com/CookieJarApps/SmartCookieWeb-Preview/forks
 #### Description: Redesign of SmartCookieWeb using GeckoView
@@ -93,7 +93,7 @@ _'~' next to to-do contents = unfinished_
     - Load website icons into shortcuts  
 ### Nira browser (alpha):
 **Warning:** in Alpha, may still contain bugs and issues.
-#### Active Updates: ✅
+#### Active Updates: ❓
 #### Link: https://github.com/prirai/nira-browser
 #### Description: Experience the web with power, privacy, and performance. (SmartCookieWeb-Preview fork)
 #### New Release regularly?: **Yes**
@@ -152,7 +152,7 @@ _'~' next to to-do contents = unfinished_
 * Install web apps as standalone applications with one tap with smart suggestions including binding pwa storage with a specific profile
 * Enable/disable, update, or uninstall PWAs from settings
 ### Iceraven:
-#### Active Updates: ✅
+#### Active Updates: ❓
 #### link: https://github.com/fork-maintainers/iceraven-browser
 #### Description: Definitely not brought to you by Mozilla!
 #### Features:
@@ -161,7 +161,7 @@ _'~' next to to-do contents = unfinished_
 * feature: hide Firefox sync
 * supports about:config
 ### Fennec browser:
-#### Active Updates: ✅
+#### Active Updates: ❓
 #### Link: https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/
 #### Description: It has proprietary bits and telemetry removed, but still connects to various Mozilla Services.
 #### Features
@@ -170,7 +170,7 @@ _'~' next to to-do contents = unfinished_
 * Disables Mozilla telemetry by default
 * Improved tracking protection
 ### Ironfox (maintained fork of Mull):
-#### Active Updates: ✅
+#### Active Updates: ❓
 #### Link: https://github.com/ironfox-oss/IronFox
 #### Description: continue the legacy of Mull by providing a free and open source, privacy and security-oriented web browser for daily use.
 #### New Release regularly?: **Yes**
@@ -243,7 +243,7 @@ _'~' next to to-do contents = unfinished_
 - **IronFox Labs:**
     - Homepage as a New Tab
 ### WebLibre:
-#### Active Updates: ✅
+#### Active Updates: ❓
 #### Link:
 #### Description:
 #### Features:
