@@ -5,11 +5,12 @@ Curated list of Android browsers
 - [X] Add links to the added browsers
 - [ ] Add Table of Contents after adding all the browsers
 - [ ] Add all Android mobile browsers
-   * - [ ] add AOSmium browser
-   * - [ ] Privacy browser
-   * - [ ] DuckDuckDuck Go
-   * - [ ] Arc Search
-   * - [ ] Ceno browser
+   * - [ ] add AOSmium browser (chromium-based)
+   * - [ ] Privacy browser (chromium-based)
+   * - [ ] DuckDuckGo Browser (chromium-based)
+   * - [ ] Arc Search (chromium-based)
+   * - [ ] Ceno browser ()
+   * - [ ] WebLibre (firefox-based)
    * - [ ] + plus more
 - [ ] Pretty-ify markdown
     * * [ ] Add browser logos
@@ -17,7 +18,7 @@ Curated list of Android browsers
     * - [ ] Add Obtainium, F-Droid, Plus more if available
     * - [ ] Add Markdown Badges
 # Android browser list:
-## Chromium forks:
+## Chromium-based browsers:
 **NOTE:** Not all extensions will behave or work as expected from any chromium android forks with extension support.
 ### Cromite (maintained fork of bromite):
 #### Link: https://github.com/uazo/cromite
@@ -55,7 +56,7 @@ Curated list of Android browsers
     - Integrated Google services isn't disabled
     - AI mode isn't disabled 
     - plus other things that come with chromium (android desktop)
-## Firefox forks:
+## Firefox-based browsers:
 ### SmartCookieWeb-Preview:
 #### Link: https://github.com/CookieJarApps/SmartCookieWeb-Preview/forks
 #### Description: Redesign of SmartCookieWeb using GeckoView
