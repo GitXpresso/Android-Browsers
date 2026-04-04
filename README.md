@@ -2,16 +2,16 @@
 Curated list of Android browsers
 
 ## To-do:
-- [X] add links to the added browsers
+- [X] Add links to the added browsers
 - [ ] Add Table of Contents after adding all the browsers
-- [ ] add all Android mobile browsers
+- [ ] Add all Android mobile browsers
    * - [ ] add AOSmium browser
    * - [ ] Privacy browser
    * - [ ] DuckDuckDuck Go
    * - [ ] Arc Search
    * - [ ] Ceno browser
    * - [ ] + plus more
-- [ ] pretty-ify markdown
+- [ ] Pretty-ify markdown
     * * [ ] Add browser logos
     * - [ ] Add latest release version
     * - [ ] Add Obtainium, F-Droid, Plus more if available
