@@ -324,15 +324,15 @@ _'~' next to to-do contents = unfinished_
           - Show favicons in list view
         - History fallback in Quick Tab Switcher (default - pre-selected)
         - Show titles in Quick Tab Switcher (default - pre-selected)
-    - **Privacy & Hardening:**
-      - Browser Langauges (configure browser locale)
-      - Complete Web Engine Hardening
-      - Hardened Fingerprint Protection 
-      - Local Network Protection (trackers are blocked from accessing other devices in your household)
-        - Block All Local Network Requests (default - pre-selected)
-    - **AI Features:**
-     - On Device AI (default - pre-selected)   
-    - **Install Ublock Origin Extension option**
+        - **Privacy & Hardening:**
+          - Browser Langauges (configure browser locale)
+          - Complete Web Engine Hardening
+          - Hardened Fingerprint Protection 
+          - **Local Network Protection** (trackers are blocked from accessing other devices inyour household)
+            - Block All Local Network Requests (default - pre-selected)
+          - **AI Features:**
+            - On Device AI (default - pre-selected)   
+          - **Install Ublock Origin Extension option**
 - **Multi-User Profiles** (isolated cookies, sessions and browsing data)
 - **Tab Management** (Organize tabs into isolated containers for enhanced privacy and workflow management):
   - Isolate cookies in each seperate container
@@ -343,10 +343,9 @@ _'~' next to to-do contents = unfinished_
   - Lock App using face locks (devices that support face recogition only)
   - Lock App using pin/password (any device)
   - Lock App using fingerprint (devices that support fingerprint authentication only)
-- Productivity & Content Management
-- Bookmark Management:
+- **Bookmark Management:**
   - Import/Export your bookmarks in HTML or JSON files.
-- Export Page Content:
+- **Export Page Content:**
   - Export Page as PDF
   - Export Page as Markdown
 
