@@ -3,6 +3,8 @@ Curated list of Android browsers
 ### To-do:
 - [ ] add links to the added browsers
 - [ ] add all Android mobile browsers
+- [ ] Add Table of Contents after adding all the browsers
+- [ ] Add images to make it more cleaner
 - [ ] Finish
 
 # Android browser list:
