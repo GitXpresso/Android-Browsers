@@ -331,9 +331,9 @@ _'~' next to to-do contents = unfinished_
           - Hardened Fingerprint Protection 
           - Local Network Protection (trackers are blocked from accessing other devices in your household)
           - Block All Local Network Requests (default - pre-selected)
-       - **AI Features:**
+        - **AI Features:**
           - On Device AI (default - pre-selected)   
-       - **Install Ublock Origin Extension option**
+        - **Install Ublock Origin Extension option**
 - **Multi-User Profiles** (isolated cookies, sessions and browsing data)
 - **Tab Management** (Organize tabs into isolated containers for enhanced privacy and workflow management):
   - Isolate cookies in each seperate container
