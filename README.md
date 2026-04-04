@@ -18,14 +18,15 @@ _'~' next to to-do contents = unfinished_
     * - [ ] Add latest release version
     * - [ ] Add Obtainium, F-Droid, Plus more if available
     * - [ ] Add Markdown Badges
+    * - [ ] Add freemium browsers (i.e: browser that has ads unless you pay)[Will be the last thing]
 # Android browser list:
 ## Chromium-based browsers:
 **NOTE:** Not all extensions will behave or work as expected from any chromium android forks with extension support.
 ### Cromite (maintained fork of bromite):
 #### Active Updates: ✅
-#### Latest release date: 2026-03-02
 #### Link: https://github.com/uazo/cromite
 #### Description: Take back your browser!
+#### New Release regularly?: **Yes**
 #### Features:
 * Extensions support (experimental feature - not all extensions will work as expected) **enable extensions via developer menu**
 * Userscript support in settings (Why?: because tampermonkey will be blocked by cromite)
@@ -36,7 +37,7 @@ _'~' next to to-do contents = unfinished_
 
 **fun fact:** Uazo worked on bromite, before bromite was archived.
 ### Helium: 
-#### Active Updates: ❓
+#### Active Updates: ✅
 #### Link: https://github.com/jqssun/android-helium-browser
 #### Description: Private, Secure, with webextensions support
 #### Information:
@@ -45,7 +46,7 @@ _'~' next to to-do contents = unfinished_
 * based on Vanadium + Helium browser (PC)
 * WebRTC IP Policy
 ### Ultimatum
-#### Active Updates: ❓
+#### Active Updates: ✅
 #### Link: https://github.com/gonzazoid/Ultimatum
 #### Description: Chromium fork with webextensions support, ani-detect browser features + more
 #### Information:
@@ -60,7 +61,7 @@ _'~' next to to-do contents = unfinished_
     - plus other things that come with chromium (android desktop)
 ## Firefox-based browsers:
 ### SmartCookieWeb-Preview:
-#### Active Updates: ❌
+#### Active Updates: ❌ 
 #### Fork: [Nira browser (alpha)](#Nira-browser-(alpha:))
 #### Link: https://github.com/CookieJarApps/SmartCookieWeb-Preview/forks
 #### Description: Redesign of SmartCookieWeb using GeckoView
@@ -93,7 +94,7 @@ _'~' next to to-do contents = unfinished_
     - Load website icons into shortcuts  
 ### Nira browser (alpha):
 **Warning:** in Alpha, may still contain bugs and issues.
-#### Active Updates: ❓
+#### Active Updates: ✅
 #### Link: https://github.com/prirai/nira-browser
 #### Description: Experience the web with power, privacy, and performance. (SmartCookieWeb-Preview fork)
 #### New Release regularly?: **Yes**
@@ -152,7 +153,7 @@ _'~' next to to-do contents = unfinished_
 * Install web apps as standalone applications with one tap with smart suggestions including binding pwa storage with a specific profile
 * Enable/disable, update, or uninstall PWAs from settings
 ### Iceraven:
-#### Active Updates: ❓
+#### Active Updates: #
 #### link: https://github.com/fork-maintainers/iceraven-browser
 #### Description: Definitely not brought to you by Mozilla!
 #### Features:
@@ -161,7 +162,7 @@ _'~' next to to-do contents = unfinished_
 * feature: hide Firefox sync
 * supports about:config
 ### Fennec browser:
-#### Active Updates: ❓
+#### Active Updates: ✅
 #### Link: https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/
 #### Description: It has proprietary bits and telemetry removed, but still connects to various Mozilla Services.
 #### Features
@@ -170,7 +171,7 @@ _'~' next to to-do contents = unfinished_
 * Disables Mozilla telemetry by default
 * Improved tracking protection
 ### Ironfox (maintained fork of Mull):
-#### Active Updates: ❓
+#### Active Updates: ✅
 #### Link: https://github.com/ironfox-oss/IronFox
 #### Description: continue the legacy of Mull by providing a free and open source, privacy and security-oriented web browser for daily use.
 #### New Release regularly?: **Yes**
@@ -243,7 +244,7 @@ _'~' next to to-do contents = unfinished_
 - **IronFox Labs:**
     - Homepage as a New Tab
 ### WebLibre:
-#### Active Updates: ❓
+#### Active Updates: ✅
 #### Link:
 #### Description:
 #### Features:
@@ -266,46 +267,88 @@ _'~' next to to-do contents = unfinished_
       - DuckDuckGo
       - Kagi
       - Qwant
-- Multi-User Profiles (isolated cookies, sessions and browsing data)
-- Tab Management (Organize tabs into isolated containers for enhanced privacy and workflow management)
+    **DNS over HTTPS:**
+    - **Pick DoH Protection Level:**
+      - Default Protection 
+      - Increased Protection (default - pre-selected)
+      - Max Protection
+      - off
+    - **Pick DoH Provider:**
+      - Quad9 (default - pre-selected)   
+      - Mullvad
+      - AdGuard
+      - Freifunk München
+      - Option to enter an custom DoH URL
+    - **Toolbar & Layout:**
+      - **Tab bar:**
+        - **Tab bar position:**
+          - Top (no auto-hide )
+          - Bottom (default - pre-selected + has autohide)
+        - **Tab bar style:**
+          - With title
+          - Compact (default - pre-selected + centered url pill without page title)
+      - Auto hide tab bar (default - pre-selected)
+      - Long Press URL to Copy (default - pre-selected)
+        - **Contextual Toolbar:**
+          - Show contextual toolbar (default - preselected)[Enables buttons under the omnibox)
+          - **Customize Toolbar:**
+            - Bookmarks (default - pre-selected)
+            - Foward (default - preselected)
+            - Bookmarks 
+            - Bookmark
+            - Share
+            - New Tab (default - pre-selected)
+            - Tabs (default, tab grid view button - pre-selected)
+            - Menu (default - pre-selected)
+            - Reload
+            - Reader mode
+            - Desktop Site
+            - Translate
+            - Find in Page
+            - Close Tab
+            - Address bar
+            - Duplicate tab
+            - Increase font
+            - Decrease font
+            - Background (background downloads)
+            - Page Up
+            - Page Down
+            - Text size
+            - Extensions
+            - Quit
+        - **Quick Tab Switcher:**  
+          - **Quick Tab Switcher Mode:**
+            - Recently used tabs (default - pre-selected)
+            - Container tabs
+        - **Tab view:**
+          - Bottom sheet Tab view    
+          - Show favicons in list view
+        - History fallback in Quick Tab Switcher (default - pre-selected)
+        - Show titles in Quick Tab Switcher (default - pre-selected)
+    - **Privacy & Hardening:**
+      - Browser Langauges (configure browser locale)
+      - Complete Web Engine Hardening
+      - Hardened Fingerprint Protection 
+      - Local Network Protection (trackers are blocked from accessing other devices in your household)
+        - Block All Local Network Requests (default - pre-selected)
+    - **AI Features:**
+     - On Device AI (default - pre-selected)   
+    - **Install Ublock Origin Extension option**
+- **Multi-User Profiles** (isolated cookies, sessions and browsing data)
+- **Tab Management** (Organize tabs into isolated containers for enhanced privacy and workflow management):
   - Isolate cookies in each seperate container
-- Tor Proxy (Route container traffic through the Tor network for anonymous browsing)
+- **Tor Proxy** (Route container traffic through the Tor network for anonymous browsing):
   - Enable Tor Proxy for Private Browsing Mode only
   - Enable Tor Proxy for all tabs
-- Biometric Authentication:
+- **Biometric Authentication**:
   - Lock App using face locks (devices that support face recogition only)
   - Lock App using pin/password (any device)
   - Lock App using fingerprint (devices that support fingerprint authentication only)
-Site Assignments: Automatically route specific domains to designated containers
-Tree View Navigation: Visualize and manage complex tab hierarchies with parent-child relationships
-Local AI Assistance: Use on-device AI models to intelligently group related tabs into new containers
-Flexible Tab Views: Choose between list view, grid view, or tree view with tab hierarchy
-Personal Local Search Engine
-Unified Search: Instantly search across:
-Open Tabs: By title, address, and full page content (no size limits)
-Bookmarks: Search your saved bookmarks by title, URL, and folder
-Web Feeds: Aggregate and search your favorite news sites and blogs with full content indexing
-Browsing History: Quickly find previously visited sites by title or address
-Bangs: Use thousands of built-in shortcuts for direct on-site search
-Custom Search Engines: Create your own bang shortcuts for frequently used search engines and websites
-Local-First Search: All indexing and search operations happen on your device—your data never leaves your control
-Privacy & Security
-No Tracking: WebLibre does not track or monitor your browsing.
-Local Data Storage: All your data stays on your device.
-Tor Integration: Route container or private tab traffic through the Tor network for greater anonymity.
-Extensions: Optional content blocker (uBlock Origin) installation during onboarding.
-Web Engine Hardening: Comprehensive and easy-to-use privacy and security presets for the Gecko Web-Engine.
-DNS over HTTPS (DoH): Encrypted DNS with predefined or custom resolver options
-Container Data Isolation: Clear container data for isolated containers
-Firefox Sync: Sync bookmarks, history, and more across devices
-Small Web Discovery
-Discover the Small Web: A dedicated browsing mode for discovering personal blogs, indie creators, and handcrafted websites — the hidden corners of the internet made by real people
-Kagi Small Web: Browse curated content from thousands of community-vetted personal blogs, indie YouTube channels, and web comics across five modes (Web, Appreciated, Videos, Code, Comics)
-Wander Network: Explore a decentralised network of personal websites where each site recommends pages and links to other sites, forming a growing web of discoveries
-Category Filters: Narrow discoveries by topic — from Programming and Science to Art, Food, Travel, and more
-Discovery History: Track and revisit pages you have found, with smart avoidance of recently seen content
-Productivity & Content Management
-Bookmark Management - Import/export bookmarks (JSON/HTML format)
-Export Page Content - Save web pages as PDF or Markdown
+- Productivity & Content Management
+- Bookmark Management:
+  - Import/Export your bookmarks in HTML or JSON files.
+- Export Page Content:
+  - Export Page as PDF
+  - Export Page as Markdown
 
 **_Finished Markdown?:_** No    
