@@ -325,15 +325,15 @@ _'~' next to to-do contents = unfinished_
           - Show favicons in list view
         - History fallback in Quick Tab Switcher (default - pre-selected)
         - Show titles in Quick Tab Switcher (default - pre-selected)
-    - **Privacy & Hardening:**
-      - Browser Langauges (configure browser locale)
-      - Complete Web Engine Hardening
-      - Hardened Fingerprint Protection 
-      - Local Network Protection (trackers are blocked from accessing other devices in your household)
-        - Block All Local Network Requests (default - pre-selected)
-    - **AI Features:**
-     - On Device AI (default - pre-selected)   
-    - **Install Ublock Origin Extension option**
+        - **Privacy & Hardening:**
+          - Browser Langauges (configure browser locale)
+          - Complete Web Engine Hardening
+          - Hardened Fingerprint Protection 
+          - Local Network Protection (trackers are blocked from accessing other devices in your household)
+          - Block All Local Network Requests (default - pre-selected)
+       - **AI Features:**
+          - On Device AI (default - pre-selected)   
+       - **Install Ublock Origin Extension option**
 - **Multi-User Profiles** (isolated cookies, sessions and browsing data)
 - **Tab Management** (Organize tabs into isolated containers for enhanced privacy and workflow management):
   - Isolate cookies in each seperate container
