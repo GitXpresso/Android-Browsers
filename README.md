@@ -11,7 +11,7 @@ _'~' next to to-do contents = unfinished_
    * - [ ] Add DuckDuckGo Browser (chromium-based)
    * - [ ] Add Arc Search (chromium-based)
    * - [ ] Add Ceno browser (firefox-based)
-   * - [X] Add WebLibre (firefox-based)~
+   * - [X] Add WebLibre (firefox-based)
    * - [ ] + plus more
 - [ ] Pretty-ify markdown
     * * [ ] Add browser logos
