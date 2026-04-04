@@ -2,15 +2,16 @@
 Curated list of Android browsers
 
 ## To-do:
+_'~' next to to-do contents = unfinished_
 - [X] Add links to the added browsers
 - [ ] Add Table of Contents after adding all the browsers
 - [ ] Add all Android mobile browsers
-   * - [ ] add AOSmium browser (chromium-based)
-   * - [ ] Privacy browser (chromium-based)
-   * - [ ] DuckDuckGo Browser (chromium-based)
-   * - [ ] Arc Search (chromium-based)
-   * - [ ] Ceno browser ()
-   * - [ ] WebLibre (firefox-based)
+   * - [ ] Add AOSmium browser (chromium-based)
+   * - [ ] Add Privacy browser (chromium-based)
+   * - [ ] Add DuckDuckGo Browser (chromium-based)
+   * - [ ] Add Arc Search (chromium-based)
+   * - [ ] Add Ceno browser (firefox-based)
+   * - [✅] Add WebLibre (firefox-based)~
    * - [ ] + plus more
 - [ ] Pretty-ify markdown
     * * [ ] Add browser logos
@@ -21,9 +22,10 @@ Curated list of Android browsers
 ## Chromium-based browsers:
 **NOTE:** Not all extensions will behave or work as expected from any chromium android forks with extension support.
 ### Cromite (maintained fork of bromite):
+#### Active Updates: ✅
+#### Latest release date: 2024-01-01
 #### Link: https://github.com/uazo/cromite
 #### Description: Take back your browser!
-#### New Release regularly?: **Yes**
 #### Features:
 * Extensions support (experimental feature - not all extensions will work as expected) **enable extensions via developer menu**
 * Userscript support in settings (Why?: because tampermonkey will be blocked by cromite)
@@ -34,18 +36,18 @@ Curated list of Android browsers
 
 **fun fact:** Uazo worked on bromite, before bromite was archived.
 ### Helium: 
+#### Active Updates: ✅
 #### Link: https://github.com/jqssun/android-helium-browser
 #### Description: Private, Secure, with webextensions support
-#### New Release regularly?: **Yes**
 #### Information:
 **Warning:** All builds (releases) are experimental.
 * Support extensions (already supported when installed)
 * based on Vanadium + Helium browser (PC)
 * WebRTC IP Policy
 ### Ultimatum
+#### Active Updates: ✅
 #### Link: https://github.com/gonzazoid/Ultimatum
 #### Description: Chromium fork with webextensions support, ani-detect browser features + more
-#### New Release regularly?: **Yes**
 #### Information:
 * extensions support 
 * anti-detect browser features
@@ -58,9 +60,10 @@ Curated list of Android browsers
     - plus other things that come with chromium (android desktop)
 ## Firefox-based browsers:
 ### SmartCookieWeb-Preview:
+#### Active Updates: ❌ 
+#### Fork: [Nira browser (alpha)](#Nira-browser-(alpha:))
 #### Link: https://github.com/CookieJarApps/SmartCookieWeb-Preview/forks
 #### Description: Redesign of SmartCookieWeb using GeckoView
-#### New Release regularly?: **No**
 #### Features:
 * Extension support (both mobile and desktop)
 * Modern Clean UI
@@ -90,6 +93,7 @@ Curated list of Android browsers
     - Load website icons into shortcuts  
 ### Nira browser (alpha):
 **Warning:** in Alpha, may still contain bugs and issues.
+#### Active Updates: ✅
 #### Link: https://github.com/prirai/nira-browser
 #### Description: Experience the web with power, privacy, and performance. (SmartCookieWeb-Preview fork)
 #### New Release regularly?: **Yes**
@@ -148,24 +152,25 @@ Curated list of Android browsers
 * Install web apps as standalone applications with one tap with smart suggestions including binding pwa storage with a specific profile
 * Enable/disable, update, or uninstall PWAs from settings
 ### Iceraven:
+#### Active Updates: ✅
 #### link: https://github.com/fork-maintainers/iceraven-browser
 #### Description: Definitely not brought to you by Mozilla!
-#### New Release regularly?: **Yes**
 #### Features:
 * Customizable (but not that customizable)
 * Desktop and Android firefox extensions support
 * feature: hide Firefox sync
 * supports about:config
 ### Fennec browser:
+#### Active Updates: ✅
 #### Link: https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/
-#### Description:  It has proprietary bits and telemetry removed, but still connects to various Mozilla Services.
-#### New Release regularly?: **Yes**
+#### Description: It has proprietary bits and telemetry removed, but still connects to various Mozilla Services.
 #### Features
 * Supports about:config
 * Has a wide variety search engines already added
 * Disables Mozilla telemetry by default
 * Improved tracking protection
 ### Ironfox (maintained fork of Mull):
+#### Active Updates: ✅
 #### Link: https://github.com/ironfox-oss/IronFox
 #### Description: continue the legacy of Mull by providing a free and open source, privacy and security-oriented web browser for daily use.
 #### New Release regularly?: **Yes**
@@ -237,5 +242,70 @@ Curated list of Android browsers
     - use Unified Push (allow notifications to pop-up on screen)[off by default]
 - **IronFox Labs:**
     - Homepage as a New Tab
-    
+### WebLibre:
+#### Active Updates: ✅
+#### Link:
+#### Description:
+#### Features:
+- **Setup Menu:**
+  - Option to Customize setup or use recommended defaults ("Custom Setup" Pre-selected)
+  - **Custom Menu options:**
+  
+    **Search:**
+    - **Pick search provider:**
+      - Wikipedia (default - pre-selected)
+      - Brave
+      - Qwant
+      - Startpage
+      - Search more (allow user to search for more search engines than the ones provided
+    - **Pick Default Autocomplete provider:**
+      
+      **What is a AutoComplete provider?:** An AutoComplete provider is the service that predicts and suggests search terms in real-time as you type in the address bar.
+      - Disabled (default)
+      - Brave
+      - DuckDuckGo
+      - Kagi
+      - Qwant
+- Multi-User Profiles (isolated cookies, sessions and browsing data)
+- Tab Management (Organize tabs into isolated containers for enhanced privacy and workflow management)
+  - Isolate cookies in each seperate container
+- Tor Proxy (Route container traffic through the Tor network for anonymous browsing)
+  - Enable Tor Proxy for Private Browsing Mode only
+  - Enable Tor Proxy for all tabs
+- Biometric Authentication:
+  - Lock App using face locks (devices that support face recogition only)
+  - Lock App using pin/password (any device)
+  - Lock App using fingerprint (devices that support fingerprint authentication only)
+Site Assignments: Automatically route specific domains to designated containers
+Tree View Navigation: Visualize and manage complex tab hierarchies with parent-child relationships
+Local AI Assistance: Use on-device AI models to intelligently group related tabs into new containers
+Flexible Tab Views: Choose between list view, grid view, or tree view with tab hierarchy
+Personal Local Search Engine
+Unified Search: Instantly search across:
+Open Tabs: By title, address, and full page content (no size limits)
+Bookmarks: Search your saved bookmarks by title, URL, and folder
+Web Feeds: Aggregate and search your favorite news sites and blogs with full content indexing
+Browsing History: Quickly find previously visited sites by title or address
+Bangs: Use thousands of built-in shortcuts for direct on-site search
+Custom Search Engines: Create your own bang shortcuts for frequently used search engines and websites
+Local-First Search: All indexing and search operations happen on your device—your data never leaves your control
+Privacy & Security
+No Tracking: WebLibre does not track or monitor your browsing.
+Local Data Storage: All your data stays on your device.
+Tor Integration: Route container or private tab traffic through the Tor network for greater anonymity.
+Extensions: Optional content blocker (uBlock Origin) installation during onboarding.
+Web Engine Hardening: Comprehensive and easy-to-use privacy and security presets for the Gecko Web-Engine.
+DNS over HTTPS (DoH): Encrypted DNS with predefined or custom resolver options
+Container Data Isolation: Clear container data for isolated containers
+Firefox Sync: Sync bookmarks, history, and more across devices
+Small Web Discovery
+Discover the Small Web: A dedicated browsing mode for discovering personal blogs, indie creators, and handcrafted websites — the hidden corners of the internet made by real people
+Kagi Small Web: Browse curated content from thousands of community-vetted personal blogs, indie YouTube channels, and web comics across five modes (Web, Appreciated, Videos, Code, Comics)
+Wander Network: Explore a decentralised network of personal websites where each site recommends pages and links to other sites, forming a growing web of discoveries
+Category Filters: Narrow discoveries by topic — from Programming and Science to Art, Food, Travel, and more
+Discovery History: Track and revisit pages you have found, with smart avoidance of recently seen content
+Productivity & Content Management
+Bookmark Management - Import/export bookmarks (JSON/HTML format)
+Export Page Content - Save web pages as PDF or Markdown
+
 **_Finished Markdown?:_** No    
