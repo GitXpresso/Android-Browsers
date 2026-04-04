@@ -1,3 +1,4 @@
+# AI was used
 name: Update Cromite Release Date
 
 on:
@@ -24,7 +25,7 @@ jobs:
       - name: Update README.md
         run: |
           # Use sed to replace the text between the comment tags
-          sed -i "26s/*./#### Latest Release Date: $CROMITE_DATE/g" README.md
+          sed -i "26s/*./$CROMITE_DATE/g" README.md
 
       - name: Commit and Push
         run: |
