@@ -20,8 +20,8 @@ jobs:
         run: |
           
           YEAR=$(curl -s "https://api.github.com/repos/uazo/cromite" | jq '.pushed_at' | xargs -r | cut -c 3-4)
-          MONTH=$(curl -s "https://api.github.com/repos/uazo/cromite" | jq '.pushed_at' | xargs -r | cut -c 6-7
-          DAY=$(curl -s "https://api.github.com/repos/uazo/cromite | jq '.pushed_at' | xargs -r | cut -c 9-10)
+          MONTH=$(curl -s "https://api.github.com/repos/uazo/cromite" | jq '.pushed_at' | xargs -r | cut -c 6-7)
+          DAY=$(curl -s "https://api.github.com/repos/uazo/cromite" | jq '.pushed_at' | xargs -r | cut -c 9-10)
           
           date_year=$(date +%y)
           date_month=$(date +%m)
