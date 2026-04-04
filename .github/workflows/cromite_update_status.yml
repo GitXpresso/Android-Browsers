@@ -9,6 +9,8 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     # Added permissions to allow the bot to push changes to your README
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     permissions:
       contents: write
 
@@ -18,8 +20,7 @@ jobs:
 
       - name: Run Release Logic
         id: release_check
-        run: |
-          title="Ironfox"
+        runs: || 
           
           # 1. Fetch Data (Added -r to jq for raw strings)
           YEAR=$(curl -s "https://api.github.com/repos/uazo/cromite" | jq -r '.pushed_at' | xargs -r | cut -c 3-4)
@@ -29,8 +30,7 @@ jobs:
           date_year=$(date +%y)
           date_month=$(date +%m)
           date_day=$(date +%d)
-
-          # 2. Your Original Logic Block
+          
           if [ "$YEAR" -eq "$date_year" ]; then
               eq_curr_yr=y
           else
@@ -66,7 +66,6 @@ jobs:
 
           # Handling the Year-over-year gap
           if [ "$YEAR" -lt "$date_year" ]; then
-              echo "$title is out of date"
               IS_ACTIVE="❌"
           fi
 
