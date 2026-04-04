@@ -23,7 +23,7 @@ _'~' next to to-do contents = unfinished_
 **NOTE:** Not all extensions will behave or work as expected from any chromium android forks with extension support.
 ### Cromite (maintained fork of bromite):
 #### Active Updates: ✅
-#### Latest release date: 2024-01-01
+#### Latest release date: 2026-03-02
 #### Link: https://github.com/uazo/cromite
 #### Description: Take back your browser!
 #### Features:
