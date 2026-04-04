@@ -1,0 +1,37 @@
+# AI was used
+name: Is active
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs once every 24 hours at midnight
+  workflow_dispatch: # Allows you to click a button to run it manually
+
+jobs:
+  update-date:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true # Clears the Node warning
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Fetch Latest Cromite Release Date
+        id: get_date
+        run: |
+          # Get the published_at date from GitHub API (YYYY-MM-DD format)
+          DATE=$(curl -s "https://api.github.com/repos/uazo/cromite/releases/latest" | jq -r '.published_at | split("T")[0]')
+          echo "CROMITE_DATE=$DATE" >> $GITHUB_ENV
+
+      - name: Update README.md
+        run: |
+          # Use sed to replace the text between the comment tags
+          sed -i "26s/Latest release date: .*/Latest release date: $CROMITE_DATE/g" README.md
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          # Only commit if there is a change
+          git commit -m "docs: update Cromite release date to $CROMITE_DATE" || echo "No changes to commit"
+          git push
