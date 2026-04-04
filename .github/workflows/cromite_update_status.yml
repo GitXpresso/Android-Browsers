@@ -1,4 +1,4 @@
-name: Ironfox Update Active Status
+name: Cromite Update Active Status
 
 on:
   schedule:
@@ -22,28 +22,28 @@ jobs:
           title="Ironfox"
           
           # 1. Fetch Data (Added -r to jq for raw strings)
-          YEAR=$(curl -s "https://api.github.com/repos/CookieJarApps/SmartCookieWeb-Preview" | jq -r '.pushed_at' | xargs -r | cut -c 3-4)
-          MONTH=$(curl -s "https://api.github.com/repos/CookieJarApps/SmartCookieWeb-Preview" | jq -r '.pushed_at' | xargs -r | cut -c 6-7
-          DAY=$(curl -s "https://api.github.com/repos/CookieJarApps/SmartCookieWeb-Preview" | jq -r '.pushed_at' | xargs -r | cut -c 9-10)
+          YEAR=$(curl -s "https://api.github.com/repos/uazo/cromite" | jq -r '.pushed_at' | xargs -r | cut -c 3-4)
+          MONTH=$(curl -s "https://api.github.com/repos/uazo/cromite" | jq -r '.pushed_at' | xargs -r | cut -c 6-7
+          DAY=$(curl -s "https://api.github.com/repos/uazo/cromite | jq -r '.pushed_at' | xargs -r | cut -c 9-10)
           
           date_year=$(date +%y)
           date_month=$(date +%m)
           date_day=$(date +%d)
 
           # 2. Your Original Logic Block
-          if [ "$SCWP_YEAR" -eq "$date_year" ]; then
+          if [ "$YEAR" -eq "$date_year" ]; then
               eq_curr_yr=y
           else
               eq_curr_yr=n
           fi
 
-          if [ "$SCWP_DAY" -lt "$date_day" ]; then
+          if [ "$DAY" -lt "$date_day" ]; then
               lt_curr_day=y
           else
               lt_curr_day=n
           fi
 
-          if [ "$SCWP_MONTH" -eq "$date_month" ]; then
+          if [ "$MONTH" -eq "$date_month" ]; then
               eq_curr_month=y
               # Nesting logic for Active Status
               if [ "$eq_curr_yr" = "y" ]; then
@@ -52,12 +52,12 @@ jobs:
                   fi
               fi
           else
-              if [ "$SCWP_MONTH" -gt "$date_month" ]; then
+              if [ "$MONTH" -gt "$date_month" ]; then
                   gt_curr_month=y
               else
                   gt_curr_month=n
               fi
-              if [ "$SCWP_MONTH" -lt "$date_month" ]; then
+              if [ "$MONTH" -lt "$date_month" ]; then
                   lt_curr_month=y
               else
                   lt_curr_month=n
@@ -73,7 +73,7 @@ jobs:
           # 3. Apply the SED command
           # Note: If IS_ACTIVE is empty, we provide a default '?' to avoid sed errors
           ACTIVE_VAL=${IS_ACTIVE:-"❓"}
-          sed -i "63s/Active Updates: .*/Active Updates: $ACTIVE_VAL/g" README.md
+          sed -i "25s/Active Updates: .*/Active Updates: $ACTIVE_VAL/g" README.md
 
       - name: Commit and Push Changes
         run: |
