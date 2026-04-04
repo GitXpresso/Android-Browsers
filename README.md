@@ -1,4 +1,4 @@
-# FF_And_Chromium
+# Android browsers
 Curated list of Android browsers 
 ### To-do:
 - [ ] add links to the added browsers
