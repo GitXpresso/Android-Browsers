@@ -20,7 +20,7 @@ jobs:
 
       - name: Run Release Logic
         id: release_check
-        runs: 
+        run: |
           
           # 1. Fetch Data (Added -r to jq for raw strings)
           YEAR=$(curl -s "https://api.github.com/repos/uazo/cromite" | jq -r '.pushed_at' | xargs -r | cut -c 3-4)
