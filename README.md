@@ -11,14 +11,13 @@ _'~' next to to-do contents = unfinished_
    * - [ ] Add DuckDuckGo Browser (chromium-based)
    * - [ ] Add Arc Search (chromium-based)
    * - [ ] Add Ceno browser (firefox-based)
-   * - [X] Add WebLibre (firefox-based)
+   * - [X] Add WebLibre (firefox-based)~
    * - [ ] + plus more
 - [ ] Pretty-ify markdown
     * * [ ] Add browser logos
     * - [ ] Add latest release version
     * - [ ] Add Obtainium, F-Droid, Plus more if available
     * - [ ] Add Markdown Badges
-    * - [ ] Add freemium browsers (i.e: browser that has ads unless you pay)[Will be the last thing]
 # Android browser list:
 ## Chromium-based browsers:
 **NOTE:** Not all extensions will behave or work as expected from any chromium android forks with extension support.
@@ -245,8 +244,8 @@ _'~' next to to-do contents = unfinished_
     - Homepage as a New Tab
 ### WebLibre:
 #### Active Updates: ✅
-#### Link:
-#### Description:
+#### Link: https://docs.weblibre.eu
+#### Description: The Privacy-focused browser.
 #### Features:
 - **Setup Menu:**
   - Option to Customize setup or use recommended defaults ("Custom Setup" Pre-selected)
@@ -325,15 +324,15 @@ _'~' next to to-do contents = unfinished_
           - Show favicons in list view
         - History fallback in Quick Tab Switcher (default - pre-selected)
         - Show titles in Quick Tab Switcher (default - pre-selected)
-        - **Privacy & Hardening:**
-          - Browser Langauges (configure browser locale)
-          - Complete Web Engine Hardening
-          - Hardened Fingerprint Protection 
-          - Local Network Protection (trackers are blocked from accessing other devices in your household)
-          - Block All Local Network Requests (default - pre-selected)
-        - **AI Features:**
-          - On Device AI (default - pre-selected)   
-        - **Install Ublock Origin Extension option**
+    - **Privacy & Hardening:**
+      - Browser Langauges (configure browser locale)
+      - Complete Web Engine Hardening
+      - Hardened Fingerprint Protection 
+      - Local Network Protection (trackers are blocked from accessing other devices in your household)
+        - Block All Local Network Requests (default - pre-selected)
+    - **AI Features:**
+     - On Device AI (default - pre-selected)   
+    - **Install Ublock Origin Extension option**
 - **Multi-User Profiles** (isolated cookies, sessions and browsing data)
 - **Tab Management** (Organize tabs into isolated containers for enhanced privacy and workflow management):
   - Isolate cookies in each seperate container
