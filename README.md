@@ -7,7 +7,8 @@ Curated list of Android browsers
 
 # Android browser list:
 ## Chromium forks:
-**NOTE:** Not all extensions will behave or work as expected from any chromium android forks with extension support.
+> [!NOTE]
+> Not all extensions will behave or work as expected from any chromium android forks with extension support.
 ### Cromite (maintained fork of bromite):
 #### Description: Take back your browser!
 #### New Release regularly?: **Yes**
